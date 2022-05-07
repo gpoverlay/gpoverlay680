@@ -1,0 +1,16 @@
+BDEPEND=dev-util/ninja >=dev-util/cmake-3.20.5
+DEFINED_PHASES=compile configure install postinst postrm prepare setup test
+DEPEND=python_single_target_python3_9? ( >=dev-lang/python-3.9.9-r1:3.9 ) python_single_target_python3_10? ( >=dev-lang/python-3.10.0_p1-r1:3.10 ) dev-qt/qtcore:5 dev-qt/qtgui:5 dev-qt/qtnetwork:5 dev-qt/qtsvg:5 dev-qt/qtwidgets:5 >=dev-util/rizin-0.3.1:= graphviz? ( media-gfx/graphviz ) dev-qt/linguist-tools:5
+DESCRIPTION=A Qt and C++ GUI for rizin reverse engineering framework
+EAPI=8
+HOMEPAGE=https://cutter.re https://github.com/rizinorg/cutter/
+INHERIT=cmake toolchain-funcs xdg-utils python-single-r1
+IUSE=graphviz python_single_target_python3_9 python_single_target_python3_10
+KEYWORDS=amd64 ~x86
+LICENSE=CC-BY-SA-3.0 GPL-3
+RDEPEND=python_single_target_python3_9? ( >=dev-lang/python-3.9.9-r1:3.9 ) python_single_target_python3_10? ( >=dev-lang/python-3.10.0_p1-r1:3.10 ) dev-qt/qtcore:5 dev-qt/qtgui:5 dev-qt/qtnetwork:5 dev-qt/qtsvg:5 dev-qt/qtwidgets:5 >=dev-util/rizin-0.3.1:= graphviz? ( media-gfx/graphviz )
+REQUIRED_USE=^^ ( python_single_target_python3_9 python_single_target_python3_10 )
+SLOT=0
+SRC_URI=https://github.com/rizinorg/cutter/archive/v2.0.5.tar.gz -> cutter-2.0.5.tar.gz https://github.com/rizinorg/cutter-translations/archive/67f5c654523d22c7843811e5aa852a01742f6f12.tar.gz -> cutter-translations-67f5c654523d22c7843811e5aa852a01742f6f12.tar.gz
+_eclasses_=cmake	90e2b29417d53718328f3a95227137a0	flag-o-matic	a500d7cc40da3de38c361e889153bdf7	multilib	4a33c9008e5ee30cb8840a3fdc24df2b	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ninja-utils	891c4d3862cbc1ce8808ea427facbcd1	python-single-r1	a5747fe6dc0651d95cb78eddd5e160a8	python-utils-r1	6d4bdf68f7dcd9a5491613be687ae665	toolchain-funcs	badd6e329e1f3e6bee99b35bf8763ce8	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e
+_md5_=2e10def8a4bf30eae29a21870d3732a0

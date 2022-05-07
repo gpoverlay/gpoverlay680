@@ -1,0 +1,15 @@
+BDEPEND=virtual/pkgconfig sys-devel/gnuconfig >=app-portage/elt-patches-20170815 || ( >=sys-devel/automake-1.16.5:1.16 ) >=sys-devel/autoconf-2.71 >=sys-devel/libtool-2.4 !build? ( sys-apps/sed )
+DEFINED_PHASES=compile configure install postinst postrm preinst prepare setup test unpack
+DEPEND=>=dev-libs/glib-2.6 sys-apps/hwdata >=sys-kernel/linux-headers-3.17 virtual/libudev tcpd? ( sys-apps/tcp-wrappers )
+DESCRIPTION=Userspace utilities for a general USB device sharing system over IP networks
+EAPI=8
+HOMEPAGE=https://www.kernel.org/
+IUSE=tcpd symlink build
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2
+RDEPEND=>=dev-libs/glib-2.6 sys-apps/hwdata >=sys-kernel/linux-headers-3.17 virtual/libudev tcpd? ( sys-apps/tcp-wrappers ) !build? ( app-arch/cpio dev-lang/perl sys-devel/bc sys-devel/bison sys-devel/flex sys-devel/make >=sys-libs/ncurses-5.2 virtual/libelf virtual/pkgconfig )
+RESTRICT=binchecks strip
+SLOT=0
+SRC_URI=https://www.kernel.org/pub/linux/kernel/v5.x/linux-5.15.tar.xz
+_eclasses_=autotools	b46e8992a8126c894fbdc8084fc040c4	estack	055c42df72f76a4f45ec92b35e83cd56	gnuconfig	b6b3e92f8b8c996400074b5f61a59256	kernel-2	b4d5583ac9c087a13f067ef82e3e5e03	libtool	241a8f577b9781a42a7421e53448a44e	multilib	4a33c9008e5ee30cb8840a3fdc24df2b	toolchain-funcs	badd6e329e1f3e6bee99b35bf8763ce8
+_md5_=b5ee7a841f08fb2cb467128d0b8d0faf

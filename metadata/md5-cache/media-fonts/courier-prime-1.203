@@ -1,0 +1,12 @@
+BDEPEND=X? ( >=x11-apps/mkfontscale-1.2.0 media-fonts/encodings )
+DEFINED_PHASES=install postinst postrm setup
+DESCRIPTION=Redesign of Courier
+EAPI=7
+HOMEPAGE=https://www.quoteunquoteapps.com/courierprime/
+IUSE=X
+KEYWORDS=amd64 ~arm ~riscv x86
+LICENSE=OFL-1.1
+SLOT=0
+SRC_URI=https://dev.gentoo.org/~jstein/dist/courier-prime-1.203.tar.xz
+_eclasses_=font	d31f12a0f6e13d56dc3062e76ae58a61
+_md5_=f2642594dfd6b70ed39c5fd3f1dbad2c

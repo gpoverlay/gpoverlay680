@@ -1,0 +1,12 @@
+BDEPEND=X? ( >=x11-apps/mkfontscale-1.2.0 media-fonts/encodings )
+DEFINED_PHASES=compile configure install postinst postrm setup
+DESCRIPTION=Hacking with Style: TrueType VT220 Font
+EAPI=7
+HOMEPAGE=http://sensi.org/~svo/glasstty/ https://github.com/svofski/glasstty
+IUSE=X
+KEYWORDS=amd64 arm arm64 ~riscv x86
+LICENSE=Unlicense
+SLOT=0
+SRC_URI=https://github.com/svofski/glasstty/archive/8d5bcafe971ee94df4aa20317f197d407df672e9.tar.gz -> glass-tty-vt220-001.3.tar.gz
+_eclasses_=font	d31f12a0f6e13d56dc3062e76ae58a61
+_md5_=8aff28d8d10ece6f1be7ba711cdb6872

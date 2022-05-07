@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "https://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<!-- maintainer-needed -->
+	<use>
+		<flag name="modules">Build kernel modules needed for tracing local
+			events. Disable this only if you intend to use sysdig purely
+			to work with dumpfiles.</flag>
+	</use>
+	<upstream>
+		<remote-id type="github">draios/sysdig</remote-id>
+	</upstream>
+</pkgmetadata>

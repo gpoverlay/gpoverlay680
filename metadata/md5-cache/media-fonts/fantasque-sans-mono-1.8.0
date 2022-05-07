@@ -1,0 +1,12 @@
+BDEPEND=X? ( >=x11-apps/mkfontscale-1.2.0 media-fonts/encodings )
+DEFINED_PHASES=install postinst postrm setup
+DESCRIPTION=A font family with a great monospaced variant for programmers
+EAPI=7
+HOMEPAGE=https://github.com/belluzj/fantasque-sans
+IUSE=X
+KEYWORDS=amd64 arm arm64 ~riscv x86
+LICENSE=OFL-1.1
+SLOT=0
+SRC_URI=https://github.com/belluzj/fantasque-sans/releases/download/v1.8.0/FantasqueSansMono-Normal.tar.gz -> fantasque-sans-mono-1.8.0.tar.gz
+_eclasses_=font	d31f12a0f6e13d56dc3062e76ae58a61
+_md5_=a093c99513255dfa4368da2c26422af0
